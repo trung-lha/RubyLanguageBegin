@@ -26,3 +26,5 @@ puts "#{A.join(" ")}"
 puts "#{A.join}"            # lay ra cac phan tu trong mang va chia cat boi bieu thuc trong  join()
 C = A.join("-")
 puts "#{C}"
+D = A.select { |number| number.odd? }  # lay ra cac phan tu mang A voi dieu kien la so le
+puts "#{D}"
